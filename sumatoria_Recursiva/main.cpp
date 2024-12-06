@@ -3,7 +3,7 @@
 using namespace std;
 int main(){
     int n;
-    cout << "Ingrese el valor a realizar sumatoria:" << endl;
+    cout << "Ingrese el valor a realizar sumatoria: ";
     cin >> n;
     int suma = sumatoria(n);
     cout << "El valor de la sumatoria es: " << suma << endl;
